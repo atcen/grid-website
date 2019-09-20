@@ -4,6 +4,7 @@
   "description": "Eine Website mit Grid und Flexbox",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npm install -g gulp-cli@^2.2.0",
     "start": "gulp"
   },
   "repository": {
@@ -18,7 +19,7 @@
   "homepage": "https://github.com/atcen/grid-website#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-plumber": "^1.2.1"
   },
   "dependencies": {}
