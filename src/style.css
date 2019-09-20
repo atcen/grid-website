@@ -12,7 +12,6 @@
      display: grid;
      grid-template-columns: repeat(12, 1fr);
      grid-gap: 0;
-     grid-auto-rows: minmax(100px, auto);
    }
 
 /* Layout-Spalten Optik */
