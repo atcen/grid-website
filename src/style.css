@@ -18,9 +18,6 @@
 /* Layout-Spalten Optik */
 #left, #middle, #right {
        display: grid;
-       background-color: rgb(255, 255, 255);
-       padding: 0;
-       color: #000000;
      }
 
 /* Layout-Spalten Position */
