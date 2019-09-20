@@ -1,0 +1,36 @@
+/* ============================== 
+   ALLGEMEINE ANGABEN 
+   ============================== */
+
+   * {box-sizing: border-box;}
+   
+/* ============================== 
+   CSS GRID
+   ============================== */
+
+   .grid {
+     display: grid;
+     grid-template-columns: repeat(12, 1fr);
+     grid-gap: 0;
+   }
+
+/* Layout-Spalten Optik */
+#left, #middle, #right {
+       display: grid;
+     }
+
+/* Layout-Spalten Position */
+ #left {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+#middle {
+  grid-column: 3 / 10;
+  grid-row: 1;
+}
+
+#right {
+  grid-column: 10 / 13;
+  grid-row: 1;
+}
