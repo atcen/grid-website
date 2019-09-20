@@ -1,0 +1,44 @@
+/* ============================== 
+   ALLGEMEINE ANGABEN 
+   ============================== */
+
+   * {box-sizing: border-box;}
+   
+/* ============================== 
+   CSS GRID
+   ============================== */
+
+   .grid {
+     display: grid;
+     max-width: 970px; /* responsive */
+     margin: 0 auto; /* Mittig */
+     
+     grid-template-columns: repeat(12, 1fr);
+     grid-gap: 0px;
+     grid-auto-rows: minmax(100px, auto);
+   }
+
+/* Layout-Spalten Optik */
+.left, .middle, .right {
+       display: grid;
+       border: 1px solid rgb(7, 7, 7);
+       background-color: rgb(255, 255, 255);
+       padding: 0em;
+       color: #000000;
+     }
+
+/* Layout-Spalten Position */
+ .left {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.middle {
+  grid-column: 3 / 10;
+  grid-row: 1;
+}
+
+.right {
+  grid-column: 10 / 13;
+  grid-row: 1;
+}
