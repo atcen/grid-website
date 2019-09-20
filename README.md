@@ -5,6 +5,10 @@ Das gesamte Layout, jede Teilaufgabe, wird über Issues kommuniziert. Nicht jede
 
 Der Aufbau der Seite erfolgt mit CSS Grid. Elemente innerhalb der Seite können mit Flexbox gestylt werden. Float ist dort zu verwenden, wo es Sinn macht. 
 
+# Voraussetzungen
+* auf dem rechner sollte nodejs version 10 installiert sein.
+* innerhalb des projekts muss per "npm install" die node packages aus der packages.json installiuert werden
+
 ## Technik
 * Die Website setzt in v1 rein auf HTML & CSS. Nodejs wird als Unterstützung in der Entwicklung genutzt
 * In v2 wird die Website um PHP und eine Datenbankanbindung erweitert.
