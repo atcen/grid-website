@@ -1,0 +1,25 @@
+{
+  "name": "grid-website",
+  "version": "0.0.1",
+  "description": "Eine Website mit Grid und Flexbox",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atcen/grid-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atcen/grid-website/issues"
+  },
+  "homepage": "https://github.com/atcen/grid-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.2.1"
+  },
+  "dependencies": {}
+}
