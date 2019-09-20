@@ -4,7 +4,7 @@ var plumber = require('gulp-plumber');
 var browserSync = require('browser-sync').create();
 
 // Static Server + watching scss/html files
-gulp.task('serve', [], function () {
+gulp.task('serve', function () {
 
     browserSync.init({
         server: "./src",
@@ -19,4 +19,4 @@ gulp.task('serve', [], function () {
 // ********************
 //    Task Processes
 // ********************
-gulp.task('default', ['serve']);
+gulp.task('default', gulp.series('serve'));
