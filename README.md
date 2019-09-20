@@ -6,7 +6,7 @@ Das gesamte Layout, jede Teilaufgabe, wird über Issues kommuniziert. Nicht jede
 Der Aufbau der Seite erfolgt mit CSS Grid. Elemente innerhalb der Seite können mit Flexbox gestylt werden. Float ist dort zu verwenden, wo es Sinn macht. 
 
 ## Technik
-* Die Website setzt in v1 rein auf HTML & CSS. 
+* Die Website setzt in v1 rein auf HTML & CSS. Nodejs wird als Unterstützung in der Entwicklung genutzt
 * In v2 wird die Website um PHP und eine Datenbankanbindung erweitert.
 
 ## Lernmaterial
