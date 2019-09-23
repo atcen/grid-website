@@ -36,10 +36,9 @@
 #right {
   grid-column: 10 / 13;
   grid-row: 1;
-  background-color: lightgrey;
 }
 
 /* Layout-Spalten Optik */
 #right {
-  background-color: lightgrey;
+  background-color: rgb(139, 136, 136);
 }
