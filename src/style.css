@@ -5,6 +5,7 @@
    * {box-sizing: border-box;}
    body{
      margin: 0;
+     height: 100vh;
    }
    
 /* ============================== 
@@ -16,11 +17,6 @@
      grid-template-columns: repeat(12, 1fr);
      grid-gap: 0;
    }
-
-/* Layout-Spalten Format */
-#left, #middle, #right {
-       display: grid;
-     }
 
 /* Layout-Spalten Position */
  #left {
@@ -41,4 +37,5 @@
 /* Layout-Spalten Optik */
 #right {
   background-color: rgb(139, 136, 136);
+  height: 100vh;
 }
