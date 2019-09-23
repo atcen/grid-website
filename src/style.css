@@ -3,6 +3,9 @@
    ============================== */
 
    * {box-sizing: border-box;}
+   body{
+     margin: 0;
+   }
    
 /* ============================== 
    CSS GRID
@@ -14,7 +17,7 @@
      grid-gap: 0;
    }
 
-/* Layout-Spalten Optik */
+/* Layout-Spalten Format */
 #left, #middle, #right {
        display: grid;
      }
@@ -33,4 +36,9 @@
 #right {
   grid-column: 10 / 13;
   grid-row: 1;
+}
+
+/* Layout-Spalten Optik */
+#right {
+  background-color: rgb(139, 136, 136);
 }
