@@ -44,3 +44,16 @@ aside {
 #right {
   background-color: rgb(139, 136, 136);
 }
+
+/* ============================== 
+   CONTENT GESTALTUNG
+   ============================== */
+
+/* Buttons */
+.btn-primary {
+  height: 50px; width: 100px;
+}
+
+.btn-secundary {
+  height: 20px; width: 40px;
+}
