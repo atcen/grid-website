@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<!-- =============================== -->
+<!-- HEAD -->
+<!-- =============================== -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>{{ page_title }}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" type="text/css" href="style.css">
+    {% endblock %}
+</head>
+
+<body>
+<div class="grid">
+    <header>
+
+        {% block header %}
+        {% endblock %}
+    </header>
+
+    <nav>
+        {% block nav %}
+            <img src="http://placekitten.com/70/70" height="70" width="70" id="logo" alt="Logo">
+
+            {% include "../partials/nav.njk" %}
+
+        {% endblock %}
+    </nav>
+
+    <main>
+        {% block main %}
+
+            <h1>{{ headline }}</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, consectetur culpa, delectus
+                dicta distinctio doloribus fugiat id illum in ipsa nam necessitatibus nulla numquam odio placeat
+                quas quibusdam quidem ratione similique tempora? Dolore dolorem doloremque eaque facere libero
+                maiores minima mollitia nam numquam, officiis ratione.</p>
+
+
+
+        {% endblock %}
+    </main>
+
+    <aside>
+        {% block aside %}
+
+            <button type="button" class="btn-primary"></button>
+            <hr>
+            <button type="button" class="btn-secondary"></button>
+            <button type="button" class="btn-secondary"></button>
+            <button type="button" class="btn-secondary"></button>
+            <button type="button" class="btn-secondary"></button>
+            <button type="button" class="btn-secondary"></button>
+
+        {% endblock %}
+    </aside>
+</div>
+
+</body>
+
+</html>

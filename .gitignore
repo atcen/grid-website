@@ -99,3 +99,4 @@ fabric.properties
 
 # node packages ignorieren
 node_modules
+dist
