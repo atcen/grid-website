@@ -17,8 +17,9 @@ gulp.task('nunjucks', function () {
 
 // CSS in /dist kopieren
 gulp.task('style', function () {
-    return gulp.src('src/*.{css}')
-        .pipe(gulp.dest('./dist/'));
+    return gulp.src('./src/**/*.css')
+        .pipe(plumber())
+        .pipe(gulp.dest('./dist'));
 });
 
 // Static Server + watching scss/html files
